@@ -1,1 +1,56 @@
 @import "../../cssstartupdefaults";
+//variables
+
+$gradientBackground: linear-gradient(
+	0deg,
+	rgba(114, 247, 232, 1) 0%,
+	rgba(186, 245, 238, 0.8102591378348214) 77%
+);
+$colorlight: #bad2f5;
+$colordark: #2d4a75;
+$colorneutral: #fff;
+$coloraccent: #72a7f7;
+$ffheader: Helvetica, Arial, sans-serif;
+$ffnormal: "Times New Roman", Times, serif;
+
+//utility classes
+
+.sections {
+	height: 100vh;
+}
+.grid {
+	display: grid;
+}
+.flex {
+	display: flex;
+	justify-content: space-between;
+}
+
+body {
+	background: $gradientBackground;
+	.home {
+		background-image: url("images/");
+		header {
+			padding: 1rem 2rem;
+			color: $colordark;
+		}
+	}
+	.about {
+		background: $colorneutral;
+	}
+	.skills {
+		background: $coloraccent;
+	}
+	.services {
+		background: $colorneutral;
+	}
+	.projects {
+		background: $colorlight;
+	}
+	.contacts {
+		background: $colorneutral;
+	}
+	footer {
+		background-color: $colordark;
+	}
+}

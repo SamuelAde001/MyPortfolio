@@ -1,20 +1,223 @@
-*,
-*::after,
-*::before {
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
   margin: 0;
   padding: 0;
+  border: 0;
+  vertical-align: baseline;
 }
 
 html {
   font-size: 16px;
   font-family: serif;
-  color: #000;
 }
 
 body {
   width: 100%;
   min-height: 100vh;
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  overflow-wrap: break-word;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: sans-serif;
+}
+
+#root,
+#__next {
+  isolation: isolate;
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+.sections {
+  height: 100vh;
+}
+
+.grid {
+  display: -ms-grid;
+  display: grid;
+}
+
+.flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+body {
+  background: -webkit-gradient(linear, left bottom, left top, from(#72f7e8), color-stop(77%, rgba(186, 245, 238, 0.810259)));
+  background: linear-gradient(0deg, #72f7e8 0%, rgba(186, 245, 238, 0.810259) 77%);
+}
+
+body nav {
+  display: none;
+}
+
+body .home {
+  background: #bad2f5;
+}
+
+body .home header {
+  padding: 1rem 2rem;
+  color: #2d4a75;
+}
+
+body .about {
+  background: #fff;
+}
+
+body .skills {
+  background: #72a7f7;
+}
+
+body .services {
+  background: #fff;
+}
+
+body .projects {
+  background: #bad2f5;
+}
+
+body .contacts {
+  background: #fff;
+}
+
+body footer {
+  background-color: #2d4a75;
 }
 /*# sourceMappingURL=styles.css.map */
