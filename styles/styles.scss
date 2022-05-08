@@ -29,26 +29,43 @@ $ffnormal: "Times New Roman", Times, serif;
 body {
 	background: $gradientBackground;
 	.home {
-		background-image: url("images/");
 		header {
-			padding: 1rem 2rem;
-			color: $colordark;
+			padding: 1rem 5rem;
+			// color: $colordark;
+			ul {
+				width: 40%;
+				justify-content: stretch;
+				li {
+					display: block;
+					padding: 0 20px;
+					display: flex;
+					align-items: center;
+					font-family: sans-serif;
+					font-weight: bold;
+					&:hover {
+						cursor: pointer;
+						color: $coloraccent;
+					}
+				}
+			}
+		}
+		.homebox {
 		}
 	}
 	.about {
-		background: $colorneutral;
+		// background: $colorneutral;
 	}
 	.skills {
-		background: $coloraccent;
+		// background: $coloraccent;
 	}
 	.services {
-		background: $colorneutral;
+		// background: $colorneutral;
 	}
 	.projects {
-		background: $colorlight;
+		// background: $colorlight;
 	}
 	.contacts {
-		background: $colorneutral;
+		// background: $colorneutral;
 	}
 	footer {
 		background-color: $colordark;
