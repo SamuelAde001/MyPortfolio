@@ -79,29 +79,29 @@ time,
 mark,
 audio,
 video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	vertical-align: baseline;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  vertical-align: baseline;
 }
 
 html {
-	font-size: 16px;
-	font-family: serif;
+  font-size: 16px;
+  font-family: serif;
 }
 
 body {
-	width: 100%;
-	min-height: 100vh;
-	line-height: 1.5;
-	-webkit-font-smoothing: antialiased;
+  width: 100%;
+  min-height: 100vh;
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
 }
 
 input,
 button,
 textarea,
 select {
-	font: inherit;
+  font: inherit;
 }
 
 img,
@@ -109,8 +109,8 @@ picture,
 video,
 canvas,
 svg {
-	display: block;
-	max-width: 100%;
+  display: block;
+  max-width: 100%;
 }
 
 p,
@@ -120,7 +120,7 @@ h3,
 h4,
 h5,
 h6 {
-	overflow-wrap: break-word;
+  overflow-wrap: break-word;
 }
 
 h1,
@@ -129,12 +129,12 @@ h3,
 h4,
 h5,
 h6 {
-	font-family: sans-serif;
+  font-family: sans-serif;
 }
 
 #root,
 #__next {
-	isolation: isolate;
+  isolation: isolate;
 }
 
 article,
@@ -148,82 +148,54 @@ hgroup,
 menu,
 nav,
 section {
-	display: block;
+  display: block;
 }
 
 ol,
 ul {
-	list-style: none;
+  list-style: none;
 }
 
 table {
-	border-collapse: collapse;
-	border-spacing: 0;
+  border-collapse: collapse;
+  border-spacing: 0;
 }
 
 .sections {
-	height: 100vh;
+  height: 100vh;
 }
 
 .grid {
-	display: -ms-grid;
-	display: grid;
+  display: grid;
 }
 
 .flex {
-	display: -webkit-box;
-	display: -ms-flexbox;
-	display: flex;
-	-webkit-box-pack: justify;
-	-ms-flex-pack: justify;
-	justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
 }
 
 body {
-	background: -webkit-gradient(
-		linear,
-		left bottom,
-		left top,
-		from(#72f7e8),
-		color-stop(77%, rgba(186, 245, 238, 0.810259))
-	);
-	background: linear-gradient(
-		0deg,
-		#72f7e8 0%,
-		rgba(186, 245, 238, 0.810259) 77%
-	);
+  background: linear-gradient(0deg, rgb(114, 247, 232) 0%, rgba(186, 245, 238, 0.8102591378) 77%);
 }
-
 body .home header {
-	padding: 1rem 5rem;
+  padding: 1rem 5rem;
 }
-
 body .home header ul {
-	width: 40%;
-	-webkit-box-pack: stretch;
-	-ms-flex-pack: stretch;
-	justify-content: stretch;
+  width: 40%;
+  justify-content: stretch;
 }
-
 body .home header ul li {
-	display: block;
-	padding: 0 20px;
-	display: -webkit-box;
-	display: -ms-flexbox;
-	display: flex;
-	-webkit-box-align: center;
-	-ms-flex-align: center;
-	align-items: center;
-	font-family: sans-serif;
-	font-weight: bold;
+  display: block;
+  padding: 0 20px;
+  display: flex;
+  align-items: center;
+  font-family: sans-serif;
+  font-weight: bold;
 }
-
 body .home header ul li:hover {
-	cursor: pointer;
-	color: #72a7f7;
+  cursor: pointer;
+  color: #72a7f7;
 }
-
 body footer {
-	background-color: #2d4a75;
-}
-/*# sourceMappingURL=styles.css.map */
+  background-color: #2d4a75;
+}/*# sourceMappingURL=styles.css.map */
